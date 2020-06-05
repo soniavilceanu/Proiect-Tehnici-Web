@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ro">
+    <head>
+        <title>Mitologie si Cultura Romaneasca</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet"
+        type="text/css"
+        href="cssMitologie.css"/>
+
+        <link rel="shortcut icon"
+        href="icon.ico"/>
+
+    </head>
+    <body>
+        <div class="header"></div>
+
+        <div class="navbar">
+            <ul>
+                <li> <a href="file:///C:/Users/Sonia/Desktop/mine/info/Site-uri/acasa/Acasa.html">Acasa</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtnActive">Mitologie Romaneasca</a>
+                    <div class="dropdown-content">
+                        <a href="file:///C:/Users/Sonia/Desktop/mine/info/Site-uri/mitologie/Mitologie.html#creaturi">Creaturi</a>
+                        <a href="file:///C:/Users/Sonia/Desktop/mine/info/Site-uri/mitologie/Mitologie.html#eroi">Eroi</a>
+                        <a href="file:///C:/Users/Sonia/Desktop/mine/info/Site-uri/mitologie/Mitologie.html#mituriBasme">Mituri si Basme</a>
+                    </div>
+                </li>
+                <li> <a href="#superstitii">Superstitii</a></li>
+                <li> <a href="#ritualuri">Ritualuri Pagane</a></li>
+                <li class="dropdown"> 
+                    <a href="javascript:void(0)" class="dropbtn">Geto-Dacii</a>
+                    <div class="dropdown-content">
+                         <!--de adaugat linkuri-->
+                        <a href="#">Istorie si Traditii</a>
+                        <a href="#">Zeitati</a>
+                    </div>
+                </li>
+                <li> <a href="file:///C:/Users/Sonia/Desktop/mine/info/Site-uri/portul%20popular/PortulPopular.html">Portul Popular</a></li>
+                <li> <a href="#galerie">Galerie</a></li>
+                <li class="llogo"> <img src="logonavbar.jpg" class="logo" alt="Logo"></li>
+            </ul>
+        </div>
+
+        <div class="row">
+            <div class="leftcolumn">
+                <ul>
+                    <li><a class="meniu" href="javascript:void(0)">Meniu Acces rapid</a></li>
+                    <li><a class="top" href="#">Sus</a></li>
+                    <li><a href="#balaur">Balaur</a></li>
+                    <li><a href="#basilisc">Basilisc</a></li>
+                    <li><a href="#zmeu">Zmeu</a></li>
+                    <li><a href="#corcoaia">Corcoaia</a></li>
+                    <li><a href="#mumaPadurii">Muma Padurii</a></li>
+                    <li><a href="#strigoi">Strigoi</a></li>
+                    <li><a href="#moroi">Moroi</a></li>
+                </ul>
+            </div>
+
+
+            <div class="middlecolumn">
+                <div class="card">
+                        <h2 id="creaturi">CREATURI</h2>
+                        <p>text...</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                </div>
+
+                <div class="card">
+                        <h2 id="eroi">EROI</h2>
+                        <p>text...</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                </div>
+                <div class="card">
+                        <h2 id="mituriBasme">MITURI SI BASME</h2>
+                        <p>text...</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                </div>
+            </div>
+
+            <div class="rightcolumn">
+                <div class="card">
+                    <h2>Stiati ca...?</h2>
+                    <p>Asemenea marilor mitologii europene si folclorul nostru are o legenda a 
+                        nasterii primordiale, care ne spune cum a aparut si cum arata lumea la inceputuri, inca dinaintea omenirii</p>
+                </div>
+                <div class="card">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+
+             </div>
+
+        </div>
+
+        <div class="footer"></div>
+        
+    </body>
+</html>

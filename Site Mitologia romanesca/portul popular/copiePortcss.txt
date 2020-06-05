@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+a:link { color: black; text-decoration: none; display:block;}
+a:visited{color: rgb(139, 104, 5);}
+a:hover{color:grey}
+a:active{color: black;}
+
+body{
+     margin: 0;
+     font-family: Georgia, serif;
+     padding: 0px;
+     background-image: url("zmeuInvert.jpg");
+}
+.header
+      {
+          background-image: url('borduraHeader.jpg');
+          background-size: 169px 140px;
+          padding: 70px;
+}  
+.navbar>ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color:black;
+    margin:0;
+    padding:0;
+    border-bottom: 3px solid khaki;
+}
+.navbar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.navbar>ul>li{
+  float: left;
+  
+}
+
+.navbar>ul>li>a, .dropbtn, .dropdown-content a{
+    text-align:center;
+    color:khaki;
+    display:block;
+    text-decoration: none;
+    padding:16px 26px;
+    font-size: 18px;
+}
+.navbar>ul>li>a:hover:not(.active),.dropdown-content a:hover, .dropdown:hover .dropbtn{
+    color:black;
+    background-color:khaki;
+}
+
+.dropdown:hover .dropdown-content{display:block;}
+
+.dropdown{
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    background-color: black;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px black;
+    z-index: 1;
+    border-top: 3px solid khaki;
+}
+.dropdown-content a{
+    color: khaki;
+    display: block;
+    padding: 12px 20px;
+    text-align:left;
+}
+
+.navbar>ul>li>.active{
+    background-color:floralwhite;
+    color:black;
+}
+.logo{
+    width: 100px;
+    height: 49px;
+    display: inline-block;
+    text-decoration: none;
+}
+.navbar>ul>.llogo{
+    float: right;
+
+}
+
+/* randuri si coloane*/
+.leftcolumn{
+    float:left;
+    width: 75%;
+}
+.rightcolumn{
+    float:left;
+    width:25%;
+    position: sticky;
+    position: -webkit-sticky;
+    top:50px;
+}
+.leftcolumn > .card > .imagineDiv{
+    width: 35%;
+    float: right;
+}
+
+.imagineDiv{
+    border-radius: 0 0 25px 25px;
+    width: 100%;
+    height: 100%;
+    padding:20px;
+    margin: 4px;
+    overflow: hidden;
+    background-color:rgba(128, 128, 128, 0.425);
+    background-image: linear-gradient(khaki 10%, grey, black);
+
+}
+.imagine{
+    max-width:49.5%;
+    height: auto;
+    border-radius: 25px;
+    padding: 5px;
+   
+}
+.card:after{
+    clear:both;
+    content: "";
+    display: table;
+}
+.card{
+    background-color:khaki;
+    text-shadow: 2px 3px 6px rgb(83, 82, 82);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+.cardRezumat:after{
+    clear:both;
+    content: "";
+    display: table;
+}
+.cardRezumat{
+    background-color:khaki;
+    text-shadow: 2px 3px 6px rgb(83, 82, 82);
+    border-radius: 25px;
+    padding: 20px;
+    margin: 20px;
+}
+article h2{
+    text-align: center;
+}
+.row:after{
+    clear: both;
+    display: table;
+    content: "";
+}
+/*
+img.populare:nth-child(2n)
+{
+    float:right;
+}*/
+
+@media screen and (max-width: 400px) {
+.navbar>ul>li {
+    float: none;
+    display: block;
+    width: 100%;    
+  }
+  .navbar>ul>li>a, .dropbtn{
+      padding:12px;
+      font-size: 16px;
+  }
+  .dropdown-content{
+    border-top: none;
+    position: relative;
+}
+
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+.leftcolumn > .card > .imagineDiv{
+    width: 100%;
+    float: none;
+}
+.imagine{max-width:100%;}
+.header{
+    background-size: 187px 140px; 
+}
+.navbar{position:static;}
+}
+
+
+@media screen and (max-width: 800px){
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+.navbar>ul>li>a, .dropbtn{
+      padding:12px 10px;
+      font-size: 16px;
+}
+.header{
+    background-size: 192px 140px;
+}
+.dropdown-content{
+    border-top: none;
+}
+.dropdown-content a{
+    text-align: center;
+    font-size: 16px;
+}
+.cardRezumat{
+    position: fixed;
+    align-self: center;
+    padding: 10px;
+    width:89%;
+    bottom:0;
+}
+}
+
+@media screen and (max-width: 800px) and (min-width: 401px){
+.llogo{
+    float: right;
+    position: relative;
+    left: -45%;
+}
+
+.leftcolumn > .card > .imagineDiv{
+    width: 45%;
+}
+/*
+.populare{
+    margin: 21px;
+}*/
+.cardRezumat{
+    width:95%;
+}
+}
+::selection {
+  background: black;
+  color: khaki;
+}
+
+.footer{
+    margin: 0px;
+    padding: 60px;
+    background-color: rgb(39, 36, 36);
+    background-image: url("borduraFooter2.jpg");
+    text-align: center;
+    border-top: 3px solid black;
+}
